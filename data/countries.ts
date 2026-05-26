@@ -1108,8 +1108,8 @@ export const COUNTRIES: CountryData[] = [
           availability: 'fair',
           clusters: ['Binh Duong', 'Dong Nai', 'HCMC (District 9, Binh Chanh)'],
           suppliers: [
-            { name: 'Protec Vietnam', url: 'https://www.protec.com.vn', product: 'Metal fabrication, welding' },
-            { name: 'SMC Vietnam', url: 'https://www.smcvn.com.vn', product: 'Steel fabrication' },
+            { name: 'Protec Vietnam', url: '#', product: 'Metal fabrication, welding' },
+            { name: 'SMC Vietnam', url: '#', product: 'Steel fabrication' },
           ],
           notes: 'Local fabrication capacity growing. Quality consistency improving but still below Korea/Japan standards. Qualification required.',
         },
@@ -1126,7 +1126,7 @@ export const COUNTRIES: CountryData[] = [
           clusters: ['Binh Duong', 'Dong Nai'],
           suppliers: [
             { name: 'Parker Vietnam', url: 'https://www.parker.com/vn', product: 'Hydraulic hoses, fittings' },
-            { name: 'Bosch Rexroth Vietnam', url: 'https://www.boschrexroth.com/vn', product: 'Hydraulic components' },
+            { name: 'Bosch Rexroth Vietnam', url: 'https://www.boschrexroth.com', product: 'Hydraulic components' },
           ],
           notes: 'Assembly and distribution present. Component manufacturing limited. Cylinders can be sourced locally; pumps/valves typically imported.',
         },
@@ -1473,7 +1473,7 @@ export const COUNTRIES: CountryData[] = [
           clusters: ['Chonburi', 'Samut Prakan'],
           suppliers: [
             { name: 'Thai Die Casting', url: '#', product: 'Metal casting' },
-            { name: 'Somboon Advance Technology (SAT)', url: 'https://www.sat.co.th', product: 'Iron castings' },
+            { name: 'Somboon Advance Technology (SAT)', url: '#', product: 'Iron castings' },
           ],
           notes: 'Strong foundry industry in Thailand EEC. Cast iron counterweight locally feasible at competitive cost.',
         },
@@ -1785,7 +1785,7 @@ export const COUNTRIES: CountryData[] = [
           availability: 'good',
           clusters: ['Bekasi', 'Cilegon'],
           suppliers: [
-            { name: 'PT. Krakatau Wajatama', url: 'https://www.krakatauwajatama.co.id', product: 'Steel sections and castings' },
+            { name: 'PT. Krakatau Wajatama', url: '#', product: 'Steel sections and castings' },
             { name: 'Local foundries, Bekasi industrial area', url: '#', product: 'Cast iron counterweight' },
           ],
           notes: 'Iron foundry capacity in Bekasi/Cilegon. Counterweight locally sourceable at competitive cost.',
