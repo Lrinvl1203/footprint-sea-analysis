@@ -782,7 +782,7 @@ export const COUNTRIES: CountryData[] = [
       steel: {
         localAvailability: 'good',
         mainProducers: [
-          { name: 'TERNIUM Mexico', url: 'https://www.ternium.com/mx', location: 'Pesquería, Nuevo León (20km from Monterrey)', capacity: '4M ton/yr' },
+          { name: 'TERNIUM Mexico', url: 'https://www.ternium.com/en', location: 'Pesquería, Nuevo León (20km from Monterrey)', capacity: '4M ton/yr' },
           { name: 'AHMSA (Altos Hornos de México)', url: 'https://www.ahmsa.com', location: 'Monclova, Coahuila (200km)', capacity: '5M ton/yr' },
           { name: 'DEACERO', url: 'https://deacero.com', location: 'Monterrey area', capacity: '1.5M ton/yr long products' },
         ],
