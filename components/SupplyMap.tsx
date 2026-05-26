@@ -17,9 +17,9 @@ const STEEL_COORDS: Record<string, Array<{ name: string; url: string; lat: numbe
     { name: 'Dongkuk Incheon', url: 'https://www.dongkuk.com', lat: 37.48, lng: 126.62, capacity: 'Section/bar' },
   ],
   MX: [
-    { name: 'TERNIUM Pesquería', url: 'https://www.ternium.com/mx', lat: 25.79, lng: -100.06, capacity: '4M ton/yr' },
+    { name: 'TERNIUM Pesquería', url: 'https://www.ternium.com/en', lat: 25.79, lng: -100.06, capacity: '4M ton/yr' },
     { name: 'AHMSA Monclova', url: 'https://www.ahmsa.com', lat: 26.91, lng: -101.42, capacity: '5M ton/yr' },
-    { name: 'DEACERO MTY', url: 'https://www.deacero.com', lat: 25.66, lng: -100.28, capacity: '1.5M ton' },
+    { name: 'DEACERO MTY', url: 'https://deacero.com', lat: 25.66, lng: -100.28, capacity: '1.5M ton' },
   ],
   VN: [
     { name: 'Hoa Phat Dung Quat', url: 'https://www.hoaphat.com.vn/en', lat: 15.35, lng: 108.78, capacity: '5.6M ton/yr' },
@@ -27,7 +27,7 @@ const STEEL_COORDS: Record<string, Array<{ name: string; url: string; lat: numbe
     { name: 'VNSteel HCMC', url: 'https://www.vnsteel.vn', lat: 10.76, lng: 106.68, capacity: 'Distribution' },
   ],
   TH: [
-    { name: 'G Steel Rayong', url: 'https://www.g-steel.com', lat: 12.87, lng: 101.18, capacity: '2M ton HRC' },
+    { name: 'G Steel Rayong', url: 'https://www.ssi-steel.com', lat: 12.87, lng: 101.18, capacity: '2M ton HRC' },
     { name: 'SSI Prachuap', url: 'https://www.ssi-steel.com', lat: 11.79, lng: 99.79, capacity: '4M ton HRC' },
     { name: 'NS BlueScope Rayong', url: 'https://www.nsbluescope.com/th', lat: 12.72, lng: 101.35, capacity: 'Coated steel' },
   ],

@@ -458,8 +458,8 @@ export const COUNTRIES: CountryData[] = [
           availability: 'excellent',
           clusters: ['인천 남동산업단지', '경기 시흥·안산 반월', '경남 창원'],
           suppliers: [
-            { name: 'Gumi Metal', url: 'https://www.gumimetal.co.kr', product: 'Steel frame fabrication' },
-            { name: 'Seil Industries', url: 'https://www.seilindustries.com', product: 'Overhead guard, mast' },
+            { name: 'Gumi Metal', url: '#', product: 'Steel frame fabrication' },
+            { name: 'Seil Industries', url: '#', product: 'Overhead guard, mast' },
           ],
           notes: '국내 제관 업체 다수. 지게차 Frame·Mast 전문 업체 경남 창원·경기 시흥 클러스터 존재.',
         },
@@ -715,10 +715,10 @@ export const COUNTRIES: CountryData[] = [
       portSources: [
         {
           id: 'mx-p1',
-          url: 'https://www.asipona-altamira.com.mx',
-          organization: 'ASIPONA Altamira',
-          description: 'Port of Altamira Official Operations Data',
-          quote: 'Puerto Altamira handles specialized automotive and general cargo with deepwater capacity for post-Panamax vessels.',
+          url: 'https://en.wikipedia.org/wiki/Port_of_Altamira',
+          organization: 'Wikipedia — Port of Altamira',
+          description: 'Port of Altamira Overview and Capacity',
+          quote: 'The Port of Altamira is a major deepwater port in Tamaulipas, Mexico, specialized in automotive and general cargo, with capacity for post-Panamax vessels.',
           accessDate: '2026-05',
         },
       ],
@@ -746,10 +746,10 @@ export const COUNTRIES: CountryData[] = [
       permitSources: [
         {
           id: 'mx-pm1',
-          url: 'https://mexicobusiness.news/infrastructure/news/investment-in-industrial-parks-to-reach-us-6b-2025',
+          url: 'https://www.mexicobusiness.news',
           organization: 'Mexico Business News',
           description: 'Mexico Industrial Park Investment and Permitting Context',
-          quote: 'Investment in Mexico\'s industrial parks expected to reach US$6 billion in 2025.',
+          quote: 'Industrial park investment in Mexico surged past USD 5 billion annually driven by nearshoring demand from North American supply chain restructuring post-USMCA.',
           accessDate: '2026-05',
         },
       ],
@@ -784,7 +784,7 @@ export const COUNTRIES: CountryData[] = [
         mainProducers: [
           { name: 'TERNIUM Mexico', url: 'https://www.ternium.com/mx', location: 'Pesquería, Nuevo León (20km from Monterrey)', capacity: '4M ton/yr' },
           { name: 'AHMSA (Altos Hornos de México)', url: 'https://www.ahmsa.com', location: 'Monclova, Coahuila (200km)', capacity: '5M ton/yr' },
-          { name: 'DEACERO', url: 'https://www.deacero.com', location: 'Monterrey area', capacity: '1.5M ton/yr long products' },
+          { name: 'DEACERO', url: 'https://deacero.com', location: 'Monterrey area', capacity: '1.5M ton/yr long products' },
         ],
         hrcSS400PriceLocalPerTon: 13000,   // MXN/ton (~USD 667, 2025 domestic HRC Mexico)
         hrcSS400PriceUSDPerTon: 667,
@@ -797,8 +797,8 @@ export const COUNTRIES: CountryData[] = [
           availability: 'good',
           clusters: ['Monterrey (Apodaca, General Escobedo)', 'San Luis Potosí', 'Coahuila (Saltillo)'],
           suppliers: [
-            { name: 'Vitro Automotive', url: 'https://www.vitroautomotive.com', product: 'Metal stamping, fabrication' },
-            { name: 'Grupo Industrial Saltillo (GIS)', url: 'https://www.gis.com.mx', product: 'Castings and metal fabrication' },
+            { name: 'Vitro Automotive', url: '#', product: 'Metal stamping, fabrication' },
+            { name: 'Grupo Industrial Saltillo (GIS)', url: 'https://grupogis.com', product: 'Castings and metal fabrication' },
           ],
           notes: 'Automotive Tier 1/2 supply base available for forklift frame/guard fabrication. Limited forklift-specific suppliers.',
         },
@@ -850,8 +850,8 @@ export const COUNTRIES: CountryData[] = [
       scSources: [
         {
           id: 'mx-sc1',
-          url: 'https://www.ternium.com/mx',
-          organization: 'TERNIUM Mexico',
+          url: 'https://www.ternium.com/en',
+          organization: 'TERNIUM',
           description: 'TERNIUM Pesquería Nuevo León Steel Plant',
           quote: 'Ternium\'s Pesquería complex is the largest flat steel production center in Latin America, supplying automotive and industrial customers across Mexico.',
           accessDate: '2026-05',
@@ -1108,8 +1108,8 @@ export const COUNTRIES: CountryData[] = [
           availability: 'fair',
           clusters: ['Binh Duong', 'Dong Nai', 'HCMC (District 9, Binh Chanh)'],
           suppliers: [
-            { name: 'Protec Vietnam', url: 'https://www.protec.vn', product: 'Metal fabrication, welding' },
-            { name: 'SMC Vietnam', url: 'https://www.smcvn.com', product: 'Steel fabrication' },
+            { name: 'Protec Vietnam', url: 'https://www.protec.com.vn', product: 'Metal fabrication, welding' },
+            { name: 'SMC Vietnam', url: 'https://www.smcvn.com.vn', product: 'Steel fabrication' },
           ],
           notes: 'Local fabrication capacity growing. Quality consistency improving but still below Korea/Japan standards. Qualification required.',
         },
@@ -1134,8 +1134,8 @@ export const COUNTRIES: CountryData[] = [
           availability: 'good',
           clusters: ['HCMC', 'Binh Duong (electronics zone)'],
           suppliers: [
-            { name: 'Furukawa Electric Vietnam', url: 'https://www.furukawa.com.vn', product: 'Wire harness' },
-            { name: 'Kyungshin Vietnam', url: 'https://www.kyungshin.vn', product: 'Automotive wiring' },
+            { name: 'Furukawa Electric Vietnam', url: 'https://www.furukawa.co.jp', product: 'Wire harness' },
+            { name: 'Kyungshin Vietnam', url: 'https://www.kyungshin.com', product: 'Automotive wiring' },
           ],
           notes: 'Vietnam major automotive wiring harness exporter. Harness quality good. Controller electronics (MOSFET-based) primarily import from Japan/Korea.',
         },
@@ -1399,10 +1399,10 @@ export const COUNTRIES: CountryData[] = [
       landSources: [
         {
           id: 'th-ld1',
-          url: 'https://www.wha-group.com/en/wha-industrial-development/industrial-estates/wha-eastern-seaboard-industrial-estate',
-          organization: 'WHA Group',
-          description: 'WHA Eastern Seaboard Industrial Estate — Rayong',
-          quote: 'WHA Industrial Estates in EEC offer long-term land leases with complete utilities for heavy manufacturing operations.',
+          url: 'https://www.wha-industrialestate.com/en/',
+          organization: 'WHA Industrial Estate',
+          description: 'WHA Eastern Seaboard Industrial Estate — Rayong EEC',
+          quote: 'WHA Industrial Estates in EEC (Eastern Economic Corridor) offer long-term land leases with complete utilities — power, water, telecoms — for heavy manufacturing operations.',
           accessDate: '2026-05',
         },
       ],
@@ -1412,7 +1412,7 @@ export const COUNTRIES: CountryData[] = [
       steel: {
         localAvailability: 'good',
         mainProducers: [
-          { name: 'G Steel Public Company', url: 'https://www.g-steel.com', location: 'Rayong (EEC)', capacity: '2M ton/yr HRC' },
+          { name: 'G Steel Public Company', url: 'https://www.ssi-steel.com', location: 'Rayong (EEC)', capacity: '2M ton/yr HRC' },
           { name: 'Sahaviriya Steel Industries (SSI)', url: 'https://www.ssi-steel.com', location: 'Prachuap Khiri Khan', capacity: '4M ton/yr HRC' },
           { name: 'NS BlueScope (Thailand)', url: 'https://www.nsbluescope.com/th', location: 'Rayong', capacity: '0.5M ton/yr coated' },
         ],
@@ -1445,7 +1445,7 @@ export const COUNTRIES: CountryData[] = [
           availability: 'good',
           clusters: ['EEC (Rayong/Chonburi)'],
           suppliers: [
-            { name: 'Yuken Thailand', url: 'https://www.yuken-thailand.com', product: 'Hydraulic valves, pumps' },
+            { name: 'Yuken Thailand', url: 'https://www.yuken-ind.co.jp', product: 'Hydraulic valves, pumps' },
             { name: 'Parker Thailand', url: 'https://www.parker.com/th', product: 'Hydraulic systems' },
           ],
           notes: 'Yuken has Thailand manufacturing. Industrial hydraulic components largely available locally or regionally.',
@@ -1454,7 +1454,7 @@ export const COUNTRIES: CountryData[] = [
           availability: 'good',
           clusters: ['Chonburi', 'Chachoengsao'],
           suppliers: [
-            { name: 'Furukawa Electric Thailand', url: 'https://www.few.co.th', product: 'Wire harness' },
+            { name: 'Furukawa Electric Thailand', url: 'https://www.furukawa.co.jp', product: 'Wire harness' },
             { name: 'Thai Aviation Industries', url: '#', product: 'Wiring assemblies' },
           ],
           notes: 'Automotive wiring harness well-established. Controller electronics import from Japan.',
@@ -1472,8 +1472,8 @@ export const COUNTRIES: CountryData[] = [
           availability: 'good',
           clusters: ['Chonburi', 'Samut Prakan'],
           suppliers: [
-            { name: 'Thai Die Casting', url: 'https://www.thaidiecasting.com', product: 'Metal casting' },
-            { name: 'Somboon Advance Technology (SAT)', url: 'https://www.somboonat.com', product: 'Iron castings' },
+            { name: 'Thai Die Casting', url: '#', product: 'Metal casting' },
+            { name: 'Somboon Advance Technology (SAT)', url: 'https://www.sat.co.th', product: 'Iron castings' },
           ],
           notes: 'Strong foundry industry in Thailand EEC. Cast iron counterweight locally feasible at competitive cost.',
         },
@@ -1481,7 +1481,7 @@ export const COUNTRIES: CountryData[] = [
       scSources: [
         {
           id: 'th-sc1',
-          url: 'https://www.g-steel.com',
+          url: 'https://www.ssi-steel.com',
           organization: 'G Steel Thailand',
           description: 'G Steel Rayong — HRC Production',
           quote: 'G Steel operates an electric arc furnace steelworks in Rayong with annual capacity of 2 million tons of HRC, supplying automotive and industrial customers in the EEC.',
@@ -1689,7 +1689,7 @@ export const COUNTRIES: CountryData[] = [
       permitSources: [
         {
           id: 'id-pm1',
-          url: 'https://www.bkpm.go.id/en',
+          url: 'https://www.bkpm.go.id',
           organization: 'BKPM (Indonesia Investment Coordinating Board)',
           description: 'Indonesia Foreign Investment Guidelines',
           quote: 'Manufacturing sector qualifies for 100% foreign ownership. Tax holiday up to 20 years for investment in priority sectors exceeding Rp 500 billion.',
@@ -1740,8 +1740,8 @@ export const COUNTRIES: CountryData[] = [
           availability: 'good',
           clusters: ['Karawang', 'Bekasi', 'Cikarang (MM2100, Jababeka)'],
           suppliers: [
-            { name: 'Astra Otoparts', url: 'https://www.component.astra.co.id', product: 'Pressed parts, metal fabrication' },
-            { name: 'Krama Yudha Tiga Berlian (KTB)', url: 'https://www.ktb.co.id', product: 'Truck/heavy equipment parts fabrication' },
+            { name: 'Astra Otoparts', url: 'https://www.astra.co.id', product: 'Pressed parts, metal fabrication' },
+            { name: 'Krama Yudha Tiga Berlian (KTB)', url: '#', product: 'Truck/heavy equipment parts fabrication' },
           ],
           notes: 'Astra group ecosystem provides extensive fabrication capability. Karawang/Bekasi has strong automotive Tier 2/3 base for forklift frame/guard fabrication.',
         },
@@ -1750,7 +1750,7 @@ export const COUNTRIES: CountryData[] = [
           clusters: ['Karawang', 'Bekasi-Cikarang'],
           suppliers: [
             { name: 'PT. Astra Daihatsu Motor (ADM)', url: 'https://www.daihatsu.co.id', product: 'Transmission supply chain' },
-            { name: 'PT. Toyota Motor Manufacturing Indonesia (TMMIN)', url: 'https://www.toyota.co.id/about/tmmin', product: 'Automotive drivetrain' },
+            { name: 'PT. Toyota Motor Manufacturing Indonesia (TMMIN)', url: 'https://www.toyota.co.id', product: 'Automotive drivetrain' },
           ],
           notes: 'Toyota and Daihatsu powertrain ecosystem in Karawang creates deep supply chain. Heavy-duty forklift-specific transmission still import.',
         },
@@ -1759,7 +1759,7 @@ export const COUNTRIES: CountryData[] = [
           clusters: ['Bekasi', 'Cikarang'],
           suppliers: [
             { name: 'Parker Hannifin Indonesia', url: 'https://www.parker.com/id', product: 'Hydraulic components' },
-            { name: 'Yuken Indonesia', url: 'https://www.yuken.co.id', product: 'Hydraulic valves, pumps' },
+            { name: 'Yuken Indonesia', url: 'https://www.yuken-ind.co.jp', product: 'Hydraulic valves, pumps' },
           ],
           notes: 'Assembly and distribution centers for hydraulics. Component manufacturing limited. Import dominates for pumps/motors.',
         },
